@@ -1,0 +1,107 @@
+/* Tablet Scale */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .skill {
+    width: 50%;
+    margin-bottom: 50px;
+
+  }
+
+
+  .teammember{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .text-contents{
+    font-size: 20px;
+  }
+
+  .Team-profil{
+    width: 100%;
+  }
+}
+
+
+
+
+/*Smartphone Scale */
+
+@media all and (max-width: 670px) {
+  .menu-icon {
+    display: block;
+    float: right;
+    color: white;
+    font-size: 40px;
+    line-height: 45px;
+    padding: 0 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .footer{
+    text-align: center;
+  
+  }
+
+  .dropdown:hover .menu-icon {
+    background-color: rgba(21, 67, 96, 0.3);
+    color: black;
+  }
+
+  .header-menu {
+    display: none;
+    position: absolute;
+    width: 95%;
+    top: 45px;
+    background-color: rgba(93, 173, 226 , 0.9);
+    min-width: 160px;
+    min-height: 45px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .header-menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+  }
+
+  .header-menu a:hover {
+    background-color: rgba(21, 67, 96, 0.3);
+    color: black;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .dropdown:hover .header-menu {
+    display: block;
+  }
+
+  .skill {
+   width: 100%;
+ }
+
+ .teammember {
+  width: 100%;
+
+ }
+
+ 
+ footer {
+  text-align: center;
+ }
+
+ .footer-list {
+  display: none;
+ }
+}
+
+
